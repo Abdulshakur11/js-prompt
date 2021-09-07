@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Купить билет "Uzbekistan Airways"</title>
+  <link rel="shortcut icon" href="./images/uzb-airways-icon.png">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="site-header header">
+    <div class="container">
+      <div class="header__wrapper">
+        <a href="#">
+          <img class="header__logo-img" src="./images/site-logo.svg" alt="site-logo" />
+        </a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__item-link" href="#">Важная информация</a>
+            </li>
+            <li class="header__item">
+              <a class="header__item-link" href="#">Покупка и управление</a>
+            </li>
+            <li class="header__item">
+              <a class="header__item-link" href="#">Программа лояльности</a>
+            </li>
+            <li class="header__item">
+              <a class="header__item-link" href="#">О компании</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- FORM SECTION -->
+
+    <section class="form-section form">
+      <div class="container">
+        <div class="form__wrapper form">
+          <h1 class="form__title">Купить билет</h1>
+          <form class="form__block" action="https://echo.htmlacademy.ru" method="post">
+            <input class="form__input-name form-input" type="text" name="Имя" placeholder="Имя" required>
+
+            <input class="form__input-surename form-input" type="text" name="Фамилия" placeholder="Фамилия" required>
+
+            <input class="form__input-age form-input" type="text" name="Возраст" placeholder="Возраст" required>
+
+            <input class="form__input-passport-seria form-input" type="text" name="пасспотр_серия"
+              placeholder="Пасспотр серия" maxlength="2" minlength="2" required>
+
+            <input class="form__input-passport-number form-input" type="number" name="пасспотр_номер"
+              placeholder="Пасспотр номер" maxlength="7" minlength="7" required>
+
+            <input class="form__input-number-tickets form-input" type="number" name="количетво_поссажиров"
+              placeholder="Количетво Поссажиров" maxlength="5" minlength="5" required>
+            <button class="form__btn" type="submit">Купить</button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+    <div class="body-bgcolor"></div>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

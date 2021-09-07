@@ -1,0 +1,64 @@
+
+// SITE HEADER STYLES
+
+// .header {
+
+// }
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 26px;
+}
+
+.header__logo-img {
+  width: 100%;
+  max-width: 256px;
+  height: auto;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.header__logo-img:hover {
+  transform: scale(1.09);
+  filter: drop-shadow(3px 3px 2.5px #00ffa6);
+}
+
+.header__logo-img:active {
+  transform: scale(0.90);
+  filter: drop-shadow(4px 3px 2.5px #00ff62);
+
+}
+
+.header__nav {
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+
+.header__item-link {
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff;
+  text-decoration: none;
+    padding: 15px 25px;
+  transition: all 0.1s ease;  
+}
+
+.header__item-link:hover {
+  color: rgba(16, 255, 88, 0.726);
+  background-color: rgba(255, 255, 255, 0.164);
+
+}
+
+.header__item-link:active {
+  box-shadow: inset 0px 0px 10px;
+}

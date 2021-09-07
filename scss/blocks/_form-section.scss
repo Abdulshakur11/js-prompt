@@ -1,0 +1,73 @@
+// FORM SECTION STYLES
+
+.body-bgcolor {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+
+.form__title {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0;
+  margin-top: 90px;
+}
+
+.form__block {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-input {
+
+  width: 290px;
+  padding: 8px 0px 8px 8px;
+  margin: 5px 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.form__input-name {}
+
+.form__input-surename {}
+
+.form__input-age {}
+
+.form__input-passport-seria {}
+
+.form__input-passport-number {}
+
+
+.form__input-number-tickets {
+  display: block;
+}
+
+.form__btn {
+  font-size: 18px;
+  padding: 8px 28px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 5px;
+  color: #fff;
+  background-color: transparent;
+  transition: all 0.1s ease-out;
+}
+
+.form__btn:hover {
+  color: #000;
+  border: 2px solid #000;
+}
+
+.form__btn:active {
+  box-shadow: inset 0px 0px 7px;
+}
